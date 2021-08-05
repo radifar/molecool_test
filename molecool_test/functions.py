@@ -9,7 +9,7 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-from mpl_toolkits.mplot3d import Axes3D
+from mpl_toolkits.mplot3d import Axes3D     # noqa: F401
 
 
 def canvas(with_attribution=True):
@@ -119,7 +119,7 @@ def open_pdb(file_location):
         if "ATOM" in line[0:6] or "HETATM" in line[0:6]:
             symbols.append(line[76:79].strip())
             atom_coords = [float(x) for x in line[30:55].split()]
-            coordinates.append(coords)
+            coordinates.append(atom_coords)
 
     coords = np.array(coordinates)
     symbols = np.array(symbols)
