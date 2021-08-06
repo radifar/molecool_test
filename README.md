@@ -1,8 +1,8 @@
 molecool_test
 ==============================
 [//]: # (Badges)
-[![GitHub Actions Build Status](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/molecool_test/workflows/CI/badge.svg)](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/molecool_test/actions?query=workflow%3ACI)
-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molecool_test/branch/master/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molecool_test/branch/master)
+[![GitHub Actions Build Status](https://github.com/radifar/molecool_test/workflows/CI/badge.svg)](https://github.com/radifar/molecool_test/actions?query=workflow%3ACI)
+[![codecov](https://codecov.io/gh/radifar/molecool_test/branch/master/graph/badge.svg)](https://codecov.io/gh/radifar/molecool_test/branch/master)
 
 
 A Python package for analyzing and visualizing xyz files. For MolSSI Workshop Python Package development workshop.
